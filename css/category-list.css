@@ -1,0 +1,106 @@
+body{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.inner{
+    box-shadow: none;
+}
+.bread>.inner{
+    padding-top: 0;
+}
+.bread__inner{
+    display: flex;
+    
+}
+.bread__inner a{
+    padding: 16px 0;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+    color: #151515;
+}
+.bread__inner a::after{
+    content: '/';
+    padding: 0 10px;
+}
+.bread__inner a:first-child{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+color: #A9A9A9;
+
+}
+.bread__inner a:last-child::after{
+    display: none;
+}
+
+.category__title-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category__title-inner h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #151515;
+}
+
+.category__title-viev{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 20%;
+}
+.category__title-viev a{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+color: #151515;
+}
+.products-counter{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+color: #A9A9A9;
+}
+.filters__inner{ 
+display: flex;
+}
+.filters__item{
+    display: flex; 
+    align-items: baseline;
+    background: #F9F9F9;
+border: 1px solid #D1D1D1;
+box-sizing: border-box;
+border-radius: 12px; 
+margin-right: 16px;
+margin-bottom: 10px;
+}
+.filters__item__checkbox{
+    padding: 12px 16px;
+}
+.filters__item p{
+    padding-right: 16px;
+}
+.filters__item__counter{
+    padding: 0 10px;   
+}
+.filters__item__select{
+    padding-right: 16px;
+}
+.filters__item__select::before{
+    content: "";
+  margin-left: 32px;
+  width: 20px;
+  border: 1px solid #d1d1d1;
+  transform: rotate(90deg);
+}
