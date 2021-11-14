@@ -426,7 +426,6 @@ select {
 .best-selling__menu {
     display: flex;
     padding: 64px 0;
-    flex-flow: wrap;
 }
 
 .best-selling__menu-name {
@@ -962,6 +961,7 @@ select {
         flex-direction: column;
         align-items: center;
         padding-top: 0;
+        flex-wrap:wrap;
     }
     .best-selling__content-item.active {
         display: grid;
