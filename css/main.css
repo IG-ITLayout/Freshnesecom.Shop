@@ -849,9 +849,7 @@ select {
 
 @media (max-width: 900px) {
     .product__menu-inner {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
+        flex-direction:column;
     }
     .product__menu-item:first-child .submenu {
         left: 19%;
