@@ -753,6 +753,7 @@ select {
     display: flex;
     justify-content: space-between;
     padding-bottom: 48px;
+    flex-wrap:wrap;
 }
 
 .footer__title {
